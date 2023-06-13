@@ -26,7 +26,7 @@ minikube addons enable ingress
 
 # Creamos el pod que es un contenedor de datos de presion y altura en el espacio de nombres del aemet. Se etiqueta y denomna como barom
 
-kubectl -n aemet run barom --port=7000 --image=ricardoinstructorformacion/barometrico -l app=barom
+kubectl -n aemet run barom --port=7000 --image=richifor/barom:v1 -l app=barom
 
 # ver el resultado de creación del pod
 
