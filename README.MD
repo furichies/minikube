@@ -93,7 +93,7 @@ spec:
     spec:
       containers:
         - name: barom
-          image: ricardoinstructorformacion/barometrico
+          image: richifor/barom:v1
           # Puertos que se exponen en el contenedor
           ports:
             - containerPort: 7000
